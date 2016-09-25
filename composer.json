@@ -1,0 +1,19 @@
+{
+    "name": "naucon/iban",
+    "description": "This package parses and validates International Bank Account Number (IBAN).",
+    "keywords": ["iban", "bban", "sepa", "swift", "parse", "validate", "validation", "checksum"],
+    "homepage": "https://bitbucket.org/naucon/iban",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Sanzenbacher"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {"Naucon\\Iban\\": "src/"}
+    }
+}
