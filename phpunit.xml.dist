@@ -10,8 +10,8 @@
     </php>
 
     <testsuites>
-        <testsuite name="Form package testsuite">
-            <directory>./Tests/</directory>
+        <testsuite name="iban package testsuite">
+            <directory>./tests/</directory>
         </testsuite>
     </testsuites>
 
@@ -19,7 +19,7 @@
         <whitelist>
             <directory>./</directory>
             <exclude>
-                <directory>./Tests</directory>
+                <directory>./tests</directory>
                 <directory>./vendor</directory>
             </exclude>
         </whitelist>
